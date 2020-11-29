@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+ 
+  /* Colors */
+
+  --primary-color: #19a2ae;
+  --secondary-blue: #2d3248;
+  --secondary-grey: #6a6f81;
+
+  --secondary-grey: hsl(0, 0%, 59%);
+
+  /* Font */
+
+  --fontsize-primary: 18px;
+
+  --font-weight-primary: 400;
+  --font-weight-secondary: 700;
+
+  /* border */
+
+  --bdrs: 15px;
+  --profile-radius: 70px;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--primary-color);
+	height: 100vh;
+	overflow: hidden;
+	 
+}
+
+
+h2 {
+	font-size: var(--fontsize-primary);
+	font-weight: var(--font-weight-secondary);
+	color: var(--secondary-blue)
+}
+
+span {
+	font-weight: var(--font-weight-primary);
+	color: var(--secondary-grey)
+}
+.main-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+ 
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* background-iamges */
+.bg-container {
+  width: 100%;
+  position: relative;
+}
+.bg-pattern1 {
+  background-image: url(./imgs/bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-position: -250px -300px;
+  position: absolute;
+  z-index: -1;
+}
+
+.bg-pattern2 {
+  background-image: url(./imgs/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-position: 1050px 500px;
+}
+
+/* card */
+
+.card {
+  width: 350px;
+  height: 390px;
+  background: white;
+  /* z-index: 2; */
+  position: absolute;
+  border-radius: var(--bdrs);
+}
+
+.bg-card-pattern {
+  border-radius: var(--bdrs) var(--bdrs) 0 0;
+}
+
+.profile-section {
+  text-align: center;
+}
+
+.profile-img {
+  border-radius: var(--profile-radius);
+  border: solid rgb(255, 255, 255) 6px;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+
+.username {
+	font-size: var(--fontsize-primary)
+}
+
+.location {
+	position: relative;
+	/* border: 1px solid #000; */
+	top: 10px;
+}
+.profile-stats {
+	font-size: var(--fontsize-primary);
+  margin-top: 30px;
+  border-top: solid 1px   rgba(0, 0, 0, 0.15);
+}
+
+.profile-stats-inner-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 0px 20px 0 20px;
+}
+
+.text {
+	/* border: 1px solid #000; */
+	font-size: 14px;
+	color: var(--secondary-grey);
+	letter-spacing: .9px;
+}
+
+.attribution {
+	position: absolute;
+	bottom: 0;
+}
+
+/* media queries & svg */
