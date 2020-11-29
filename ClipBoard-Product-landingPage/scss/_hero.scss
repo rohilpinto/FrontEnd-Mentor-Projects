@@ -1,0 +1,21 @@
+.hero {
+
+	&__title {
+		
+		font-size: 1.9rem;
+		font-weight: 600;
+	}
+
+	&__btn-section{
+	
+
+	background: silver;
+	
+		.hero__btn {
+			border: none;
+		}
+	
+	}
+
+
+}

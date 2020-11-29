@@ -1,0 +1,37 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  line-height: 1.2;
+  font-size: 16px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+h1, h2, h3 {
+  color: #4c545d;
+}
+
+.hero__title {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.hero__btn-section {
+  background: silver;
+}
+
+.hero__btn-section .hero__btn {
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
