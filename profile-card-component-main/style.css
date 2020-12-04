@@ -121,6 +121,7 @@ span {
   font-size: 14px;
   color: var(--secondary-grey);
   letter-spacing: 0.9px;
+  transform: translateY(-50px);
 }
 
 .attribution {
